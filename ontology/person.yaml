@@ -1,0 +1,10 @@
+type: Person
+description: 資料から確認された人物
+
+fields:
+  id: string
+  name: string
+  aliases: []
+  birth: string?
+  death: string?
+  sources: []

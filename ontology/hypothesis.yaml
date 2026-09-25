@@ -1,0 +1,8 @@
+type: Hypothesis
+description: 資料から導いた未確定の仮説
+
+fields:
+  id: string
+  statement: string
+  evidence: []
+  status: open|supported|rejected|confirmed

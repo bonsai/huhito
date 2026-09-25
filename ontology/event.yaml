@@ -1,0 +1,9 @@
+type: Event
+description: 人物に関係する出来事
+
+fields:
+  id: string
+  type: birth|death|marriage|divorce|adoption|residence|registration|other
+  date: string?
+  persons: []
+  sources: []

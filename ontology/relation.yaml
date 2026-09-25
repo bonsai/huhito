@@ -1,0 +1,10 @@
+type: Relation
+description: 人物間の関係
+
+fields:
+  id: string
+  subject: string
+  predicate: parent|child|spouse|sibling|adoptive_parent|adopted_child
+  object: string
+  sources: []
+  confidence: asserted|inferred|unknown

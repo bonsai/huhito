@@ -1,0 +1,11 @@
+type: Source
+description: 原資料・参照資料
+
+fields:
+  id: string
+  title: string
+  kind: koseki|joseki|kaiseigenkoseki|historical|secondary
+  path: string
+  date: string?
+  checksum: string?
+  visibility: local|private|public
